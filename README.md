@@ -45,3 +45,6 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 - Do states with higher rates of firearm ownership have lower rates of firearm deaths?
   - Firearm deaths per 100k data come from CDC and are as reported in 2021
   - Shocked to find such a high correlation (r = 0.79) between rates of firearm ownership and rates of firearm deaths per 100k
+
+- Do states with higher rates of firearm ownership have lower rates of domestic violence against women?
+  - Weak correlation with higher rates of gun ownership and higher rates of domestic violence against women ( r = 0.25)
