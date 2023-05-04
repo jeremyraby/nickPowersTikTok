@@ -50,3 +50,8 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
   - % domestic violence against women
     - reported by the National Coaltion Against Domestic Violence, but many of their sources are reliable (CDC, BLS)
   - Weak correlation with higher rates of gun ownership and higher rates of domestic violence against women ( r = 0.25)
+
+- Do states with higher rates of firearm ownership have higher rates of suicide mortality?
+  - Data come from CDC for 2021, per 100k residents
+  - I've heard that states with higher gun ownership have more suicides, but I couldn't believe an Pearson correlation of 0.82!
+    - It makes some sense in that more guns the attempt is more likely to be successful, but also that someone may be more likely to attempt if a probably successful method is easily available
