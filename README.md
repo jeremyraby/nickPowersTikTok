@@ -78,3 +78,7 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 - Are states which lean red (measured by having a higher percentage of votes cast for Trump than Biden in 2020) less likely to have gun deaths?
   - Red states are highly correlated with a high amount of gun deaths (r = 0.68).
     - This is a slightly weaker relationship than gun ownership vs gun deaths, but that makes sense because gun owners aren't only in red states
+
+- Do states with more poverty have more crime?
+  - There's a moderate positive relationship between violent crime and poverty rates (r = 0.48), but a stronger correlation between gun deaths and poverty (r = 0.65)
+  - poverty data third party from the US Census Bureau
