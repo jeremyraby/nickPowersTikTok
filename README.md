@@ -55,3 +55,15 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
   - Data come from CDC for 2021, per 100k residents
   - I've heard that states with higher gun ownership have more suicides, but I couldn't believe an Pearson correlation of 0.82!
     - It makes some sense in that more guns the attempt is more likely to be successful, but also that someone may be more likely to attempt if a probably successful method is easily available
+
+- Do states with more money donated by the gun lobby have less violent crime?
+  - Money donated by gun lobby data comes from Brady Council and is reported as how much money has been donated to the state's currently-serving federal senators over the course of their careers.
+  - Mitt Romney has had way more money donated than anyone else
+  - There's basically no relationship between money donated by gun lobby and violent crime or gun deaths
+
+- Do states that require reporting lost or stolen guns have less violent crime/gun deaths?
+  - Not sure where these data come from, but I did find from [Everytown](https://everytownresearch.org/rankings/law/lost-and-stolen-reporting/) that 15 states require reporting of stolen/lost guns
+  - States requiring reporing max violent crime = 478 / 100K
+  - States without reporting max violent crime = 837.8 / 100k
+  - States requiring reporing max gun deaths = 15.2 / 100k
+  - States without reporting max gun deaths = 28.6 / 100k
