@@ -65,5 +65,5 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
   - Not sure where these data come from, but I did find from [Everytown](https://everytownresearch.org/rankings/law/lost-and-stolen-reporting/) that 15 states require reporting of stolen/lost guns
   - States requiring reporing max violent crime = 478 / 100K
   - States without reporting max violent crime = 837.8 / 100k
-  - States requiring reporing max gun deaths = 15.2 / 100k
+  - States requiring reporing max gun deaths = 15.4 / 100k
   - States without reporting max gun deaths = 28.6 / 100k
