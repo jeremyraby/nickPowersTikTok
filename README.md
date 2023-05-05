@@ -67,3 +67,9 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
   - States without reporting max violent crime = 837.8 / 100k
   - States requiring reporing max gun deaths = 15.4 / 100k
   - States without reporting max gun deaths = 28.6 / 100k
+    - The percentage difference between two values is calculated by dividing the absolute value of the difference between two numbers by the average of those two numbers. Multiplying the result by 100 will yield the solution in percent, rather than decimal form.
+      - Max violent crime % diff =(ABS(478-837.8)/AVERAGE(478,837.8)*100) = 54.7%
+      - Max gun deaths % diff =(ABS(15.4-28.6)/AVERAGE(15.4,28.6)*100) = 60%
+
+- Do states with higher violent crime rates have more drug overdoses?
+  - Surpised to find no correlation (r = 0.02)
