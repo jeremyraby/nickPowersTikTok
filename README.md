@@ -74,3 +74,7 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 - Do states with higher violent crime rates have more drug overdoses?
   - Surpised to find no correlation (r = 0.02)
   - Data from CDC and records drug od mortalities
+
+- Are states which lean red (measured by having a higher percentage of votes cast for Trump than Biden in 2020) less likely to have gun deaths?
+  - Red states are highly correlated with a high amount of gun deaths (r = 0.68).
+    - This is a slightly weaker relationship than gun ownership vs gun deaths, but that makes sense because gun owners aren't only in red states
