@@ -73,3 +73,4 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 
 - Do states with higher violent crime rates have more drug overdoses?
   - Surpised to find no correlation (r = 0.02)
+  - Data from CDC and records drug od mortalities
