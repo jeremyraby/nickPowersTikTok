@@ -1,23 +1,22 @@
 # About
 
-Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of various data detailing social issues in the US including economic factors (how much a Big Mac costs in each state) and the percentage of the state's voters who voted for Joe Biden or Donald Trump in the 2020 presidential election. "The spreadsheet" has 250 fields for comparing each state against each other and is available for free as a CSV on Nick's [website]( https://www.thatnickpowersguy.com/).
+Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of various data detailing social issues in the US including economic factors (how much a Big Mac costs in each state) and the percentage of the state's voters who voted for Joe Biden or Donald Trump in the 2020 presidential election. "The spreadsheet" has 250 fields for comparing each state against each other and is available for free as a CSV (how I got it) on Nick's [website]( https://www.thatnickpowersguy.com/).
 
 ## Firearm info
 
-- Compare states
-  - firearm ownership
-  - violent crime per 100k
-  - firearm deaths per 100k
-  - % domestic violence
-    - men
-    - women
-  - drug od rate
-  - poverty rate
-  - suicide rate
-  - require reporting stolen weapons
-  - $ donated from gun rights activists
-  - voted biden
-  - voted trump
+I initially was interested in analyzing data relating to deaths caused by firearms. I was raised in a military family and often went hunting as a kid. News media are full of stories about gun violence and various proposals for stemming the loss of life, including both extremes of outright gun bans and "Constitutional carry" and I wanted to have a look at what may **actually** work instead of reading propaganda or opinion pieces. In addition to being bombarded by news of yet another tragedy, I have some skin in this game as my family has had losses due to gun violence and I was personally in a school lockdown as a teacher when a student brought a gun to school (thankfully the student posted threats on facebook and police intercepted them before anyone was hurt). This (basically) uniquely American problem has long been out of hand and it's past time we look into solutions that will be effective.
+
+The spreadsheet includes several fields which I thought be correlated with gun violence, whether negatively or positively:
+
+| Fields Used for Analysis |     |
+| ------------------------ | --- |
+| Rates of firearm ownership | Does the state require reporting stolen weapons? |
+| Rates violent crime per 100k | How much money was donated from the NRA |
+| Rates offirearm deaths per 100k | % of the state voted for Joe Biden |
+| % of population who experience domestic violence | % of the state voted for Donald Trump |
+| Rate of drug overdoses | Number of police in the state per 100k |
+| % of the populaiton below the poverty line | Is there a state assault weapons registration law? |
+| Rates of suicide per 100k |
 
 ### Questions & hypotheses
 
