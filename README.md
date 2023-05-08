@@ -23,28 +23,20 @@ The Spreadsheet includes several fields which I thought be correlated with gun v
 **Before beginning my analysis, I hypothesized that the more conservatively a state leans (based on 2020 presidential votes) the more likely that state will be to have higher rates of gun deaths due to lax regulation.**
 
 ### Sources
+
 As detailed in the table above, I analyzed several issues I believed may be correlated with higher rates of gun deaths. All of the visualizations for these analyses can be found on GitHub as a [PowerPoint presentation](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pptx) or a [pdf](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pdf). I found several surprising relationships in the data and some that, sadly, weren't so surprising. I began my analysis by reading up on all the data sources used for The Spreadsheet. I was happy to learn that most of the data sources were pretty reputable - many come from the CDC, FBI, and the US Census Bureau. Some of the cited data sources, however, are trade organizations such as Zillow or are being cited by a third party like The Brady Campaign.
 
-- Do states with higher rates of firearm ownership have lower rates of violent crime?
-  - Read about data sources for relevant fields:
-    - size (sq mi)
-      - taken thrid-party from US Census
-    - population
-      - taken from USDA ERS
-    - firearm ownership
-      - supposedly ultimately comes from Pew. This is also just going to be hard to trust regardless of source because people won't necessarily be truthful on surveys since registration isn't universally required
-    - violent crime per 100k
-      - [FBI crime data explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend), reported in 2020
-  - Suprised to find a weak correlation between rates of firearm ownership and rates of violent crime (r = 0.32).
+### Findings
 
-- Do states with higher rates of firearm ownership have lower rates of firearm deaths?
-  - Firearm deaths per 100k data come from CDC and are as reported in 2021
-  - Shocked to find such a high correlation (r = 0.79) between rates of firearm ownership and rates of firearm deaths per 100k
+To learn how best to combat gun violence, it's useful to know where we stand on the issue. It turns out the US experienced [45,222](https://wonder.cdc.gov/controller/datarequest/D158;jsessionid=B76F9B53AF4C1C03C33CDF78FFEB) deaths due to gun violence in 2020 with an average 13.7 per 100k and a high of 28.6 gun deaths per 100k people in Mississippi. This led me to some perfunctory questions: does gun ownership reduce violent crime? does gun ownership reduce gun deaths? Comparing rates of violent crime and gun ownership per state, I found only a weak positive corelation (*r* = 0.32). Comparing gun ownership and gun deaths, however, revealed a much stronger relationship (*r* = 0.79).
 
-- Do states with higher rates of firearm ownership have lower rates of domestic violence against women?
-  - % domestic violence against women
-    - reported by the National Coaltion Against Domestic Violence, but many of their sources are reliable (CDC, BLS)
-  - Weak correlation with higher rates of gun ownership and higher rates of domestic violence against women ( r = 0.25)
+In addition to rates of gun ownership and deaths, I also looked at other factors I believed may tell a more complete story. I was surprised to learn that gun ownership has a very low relationship with rates of domestic violence against women (r = 0.25) and political leaning also is less correlated to gun deaths than simply owning a gun -  of the top 10 states for both gun deaths and votes for Donald Trump in 2020, there are only four states in common and the correlation is only *r* = 0.68 vs *r* = 0.79. Poverty has a similar relationship to gun deaths as does political leanings. Sadly, the strongest relationship I found was between gun ownership and suicides (*r* = 0.82).
+
+## Conclusion
+
+
+
+While I found a few factors that were positively correlated with higher rates of gun deaths - suicides, gun ownership, leaning conservative - I also wanted to see if anything was associated with fewer gun deaths. Interestingly, at least to teenage-me, states that either don't require registering assault weapons or outright prohibit their registration account for more than 90% of gun deaths in the US compared to states that require registering assault weapons. There is also a 43% and 46% decrease in gun violence and gun deaths, respectively, when state laws require lost or stolen guns be reported to the authorities. Speaking of the authorities, there is no correlation between the number of police in a state per 100k people and gun deaths (*r* = 0.01). 
 
 - Do states with higher rates of firearm ownership have higher rates of suicide mortality?
   - Data come from CDC for 2021, per 100k residents
