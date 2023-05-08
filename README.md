@@ -62,9 +62,8 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
   - States without reporting max violent crime = 837.8 / 100k
   - States requiring reporing max gun deaths = 15.4 / 100k
   - States without reporting max gun deaths = 28.6 / 100k
-    - The percentage difference between two values is calculated by dividing the absolute value of the difference between two numbers by the average of those two numbers. Multiplying the result by 100 will yield the solution in percent, rather than decimal form.
-      - Max violent crime % diff =(ABS(478-837.8)/AVERAGE(478,837.8)*100) = 54.7%
-      - Max gun deaths % diff =(ABS(15.4-28.6)/AVERAGE(15.4,28.6)*100) = 60%
+  - 43% difference in violent crime
+  - 46% difference in gun deaths
 
 - Do states with higher violent crime rates have more drug overdoses?
   - Surpised to find no correlation (r = 0.02)
@@ -77,3 +76,12 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 - Do states with more poverty have more crime?
   - There's a moderate positive relationship between violent crime and poverty rates (r = 0.48), but a stronger correlation between gun deaths and poverty (r = 0.65)
   - poverty data third party from the US Census Bureau
+
+[Guns = 48,830 deaths in 2021](https://www.cdc.gov/nchs/fastats/injury.htm)
+
+Photo by <a href="https://unsplash.com/@camstejim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">camilo jimenez</a> on <a href="https://unsplash.com/photos/vGu08RYjO-s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+Hey y'all, I'm working on a project analyzing/visualizing some various shit about the country. I'm currently working on something about guns, but I have a data set that is really extensive and I figured some of y'all may be interested in some of it. I have the different fields broadly categorized in a google sheets and I'd appreciate it if you wouldn't mind taking a look-see and letting me know if there are any topics you'd like me to explore. Here's the link to the data categories: https://docs.google.com/spreadsheets/d/1a94XNgpIOefc12vtiKNoB1SC-u1CULwO5YxudBq6TR0/edit?usp=sharing
+
+And here's a read-only version of the dataset if you want to get an idea of how it's organized: https://www.thatnickpowersguy.com/blank-page
