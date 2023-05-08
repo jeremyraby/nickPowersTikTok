@@ -1,6 +1,6 @@
 # About
 
-This is a practice repo using "the speadsheet" from @thatnickpowersguy on TikTok.
+Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of various data detailing social issues in the US including economic factors (how much a Big Mac costs in each state) and the percentage of the state's voters who voted for Joe Biden or Donald Trump in the 2020 presidential election. "The spreadsheet" has 250 fields for comparing each state against each other and is available for free as a CSV on Nick's [website]( https://www.thatnickpowersguy.com/).
 
 ## Firearm info
 
