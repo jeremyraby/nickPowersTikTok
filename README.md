@@ -6,7 +6,7 @@ Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of va
 
 I initially was interested in analyzing data relating to deaths caused by firearms. I was raised in a military family and often went hunting as a kid. News media are full of stories about gun violence and various proposals for stemming the loss of life, including both extremes of outright gun bans and "Constitutional carry" and I wanted to have a look at what may **actually** work instead of reading propaganda or opinion pieces. In addition to being bombarded by news of yet another tragedy, I have some skin in this game as my family has had losses due to gun violence and I was personally in a school lockdown as a teacher when a student brought a gun to school (thankfully the student posted threats on facebook and police intercepted them before anyone was hurt). This (basically) uniquely American problem has long been out of hand and it's past time we look into solutions that will be effective.
 
-The spreadsheet includes several fields which I thought be correlated with gun violence, whether negatively or positively:
+The Spreadsheet includes several fields which I thought be correlated with gun violence, whether negatively or positively:
 
 | Fields Used for Analysis |     |
 | ------------------------ | --- |
@@ -22,7 +22,8 @@ The spreadsheet includes several fields which I thought be correlated with gun v
 
 **Before beginning my analysis, I hypothesized that the more conservatively a state leans (based on 2020 presidential votes) the more likely that state will be to have higher rates of gun deaths due to lax regulation.**
 
-As detailed in the table above, I analyzed several issues I believed may be correlated with higher rates of gun deaths. All of the visualizations for these analyses can be found on GitHub as a [PowerPoint presentation](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pptx) or a [pdf](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pdf). I found several surprising relationships in the data and some that, sadly, weren't so surprising.
+### Sources
+As detailed in the table above, I analyzed several issues I believed may be correlated with higher rates of gun deaths. All of the visualizations for these analyses can be found on GitHub as a [PowerPoint presentation](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pptx) or a [pdf](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pdf). I found several surprising relationships in the data and some that, sadly, weren't so surprising. I began my analysis by reading up on all the data sources used for The Spreadsheet. I was happy to learn that most of the data sources were pretty reputable - many come from the CDC, FBI, and the US Census Bureau. Some of the cited data sources, however, are trade organizations such as Zillow or are being cited by a third party like The Brady Campaign.
 
 - Do states with higher rates of firearm ownership have lower rates of violent crime?
   - Read about data sources for relevant fields:
