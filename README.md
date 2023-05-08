@@ -18,11 +18,11 @@ The spreadsheet includes several fields which I thought be correlated with gun v
 | % of the populaiton below the poverty line | Is there a state assault weapons registration law? |
 | Rates of suicide per 100k |
 
-### Questions & hypotheses
+## Digging In
 
-> Some of this I've either read about over the years or have actually seen a TT from Nick about the individual topic.
+**Before beginning my analysis, I hypothesized that the more conservatively a state leans (based on 2020 presidential votes) the more likely that state will be to have higher rates of gun deaths due to lax regulation.**
 
-General thoughts: more "conservative" (based on Trump/Biden votes in 2020) states will have more liberal firearms laws than more "liberal" states but will have worse indicators regarding crime.
+As detailed in the table above, I analyzed several issues I believed may be correlated with higher rates of gun deaths. All of the visualizations for these analyses can be found on GitHub as a [PowerPoint presentation](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pptx) or a [pdf](https://github.com/jeremyraby/nickPowersTikTok/blob/main/firearmDeaths.pdf). I found several surprising relationships in the data and some that, sadly, weren't so surprising.
 
 - Do states with higher rates of firearm ownership have lower rates of violent crime?
   - Read about data sources for relevant fields:
@@ -33,7 +33,7 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
     - firearm ownership
       - supposedly ultimately comes from Pew. This is also just going to be hard to trust regardless of source because people won't necessarily be truthful on surveys since registration isn't universally required
     - violent crime per 100k
-      - from Wikipedia, reported in 2020
+      - [FBI crime data explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend), reported in 2020
   - Suprised to find a weak correlation between rates of firearm ownership and rates of violent crime (r = 0.32).
 
 - Do states with higher rates of firearm ownership have lower rates of firearm deaths?
@@ -75,10 +75,6 @@ General thoughts: more "conservative" (based on Trump/Biden votes in 2020) state
 - Do states with more poverty have more crime?
   - There's a moderate positive relationship between violent crime and poverty rates (r = 0.48), but a stronger correlation between gun deaths and poverty (r = 0.65)
   - poverty data third party from the US Census Bureau
-
-[Guns = 48,830 deaths in 2021](https://www.cdc.gov/nchs/fastats/injury.htm)
-
-Photo by <a href="https://unsplash.com/@camstejim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">camilo jimenez</a> on <a href="https://unsplash.com/photos/vGu08RYjO-s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
 Hey y'all, I'm working on a project analyzing/visualizing some various shit about the country. I'm currently working on something about guns, but I have a data set that is really extensive and I figured some of y'all may be interested in some of it. I have the different fields broadly categorized in a google sheets and I'd appreciate it if you wouldn't mind taking a look-see and letting me know if there are any topics you'd like me to explore. Here's the link to the data categories: https://docs.google.com/spreadsheets/d/1a94XNgpIOefc12vtiKNoB1SC-u1CULwO5YxudBq6TR0/edit?usp=sharing
