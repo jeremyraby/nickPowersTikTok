@@ -11,8 +11,8 @@ The Spreadsheet includes several fields which I thought might be correlated with
 | Fields Used for Analysis |     |
 | ------------------------ | --- |
 | Rates of firearm ownership | Does the state require reporting stolen weapons? |
-| Rates violent crime per 100k | How much money was donated from the NRA |
-| Rates offirearm deaths per 100k | % of the state voted for Joe Biden |
+| Rates of violent crime per 100k | How much money was donated from the NRA |
+| Rates of firearm deaths per 100k | % of the state voted for Joe Biden |
 | % of population who experience domestic violence | % of the state voted for Donald Trump |
 | Rate of drug overdoses | Number of police in the state per 100k |
 | % of the populaiton below the poverty line | Is there a state assault weapons registration law? |
