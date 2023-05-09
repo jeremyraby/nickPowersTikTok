@@ -1,12 +1,12 @@
 # About
 
-Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of various data detailing social issues in the US including economic factors (how much a Big Mac costs in each state) and the percentage of the state's voters who voted for Joe Biden or Donald Trump in the 2020 presidential election. "The spreadsheet" has 250 fields for comparing each state against each other and is available for free as a CSV (how I got it) on Nick's [website]( https://www.thatnickpowersguy.com/).
+Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of various data detailing social issues in the US including information such as economic factors (how much a Big Mac costs in each state) and political factors (the percentage of the state's voters who voted for Joe Biden or Donald Trump in the 2020 presidential election). "The Spreadsheet" has 250 fields for comparing each state against each other and is available for free as a CSV (how I got it) on Nick's [website]( https://www.thatnickpowersguy.com/).
 
 ## Firearm info
 
 I initially was interested in analyzing data relating to deaths caused by firearms. I was raised in a military family and often went hunting as a kid. News media are full of stories about gun violence and various proposals for stemming the loss of life, including both extremes of outright gun bans and "Constitutional carry" and I wanted to have a look at what may **actually** work instead of reading propaganda or opinion pieces. In addition to being bombarded by news of yet another tragedy, I have some skin in this game as my family has had losses due to gun violence and I still have friends working in schools. This (basically) uniquely American problem has long been out of hand and it's past time we look into solutions that will be effective.
 
-The Spreadsheet includes several fields which I thought be correlated with gun violence, whether negatively or positively:
+The Spreadsheet includes several fields which I thought might be correlated with gun violence, whether negatively or positively:
 
 | Fields Used for Analysis |     |
 | ------------------------ | --- |
