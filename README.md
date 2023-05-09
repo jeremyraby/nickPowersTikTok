@@ -4,7 +4,7 @@ Nick Powers (@thatnickpowersguy) has compiled and maintained a spreadsheet of va
 
 ## Firearm info
 
-I initially was interested in analyzing data relating to deaths caused by firearms. I was raised in a military family and often went hunting as a kid. News media are full of stories about gun violence and various proposals for stemming the loss of life, including both extremes of outright gun bans and "Constitutional carry" and I wanted to have a look at what may **actually** work instead of reading propaganda or opinion pieces. In addition to being bombarded by news of yet another tragedy, I have some skin in this game as my family has had losses due to gun violence and I was personally in a school lockdown as a teacher when a student brought a gun to school (thankfully the student posted threats on facebook and police intercepted them before anyone was hurt). This (basically) uniquely American problem has long been out of hand and it's past time we look into solutions that will be effective.
+I initially was interested in analyzing data relating to deaths caused by firearms. I was raised in a military family and often went hunting as a kid. News media are full of stories about gun violence and various proposals for stemming the loss of life, including both extremes of outright gun bans and "Constitutional carry" and I wanted to have a look at what may **actually** work instead of reading propaganda or opinion pieces. In addition to being bombarded by news of yet another tragedy, I have some skin in this game as my family has had losses due to gun violence and I still have friends working in schools. This (basically) uniquely American problem has long been out of hand and it's past time we look into solutions that will be effective.
 
 The Spreadsheet includes several fields which I thought be correlated with gun violence, whether negatively or positively:
 
@@ -42,6 +42,16 @@ While this was a quick project, and not particularly wide-ranging, I do think it
 
 There are two options I was able to study with these data: state laws requiring assault weapon registration and reporting stolen or lost firearms. Even though registering assault weapons is associated with a much larger decrease in firearm deaths (a whopping 92%!), the proposal has major political complications as seemingly-benign as defining "asssault weapon" all the way to including fears of [Hitler-esque monstrosity](https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=1671&context=faculty_scholarship). So, in spite of a less dramatic impact I believe it would be a better first step to simply enact legislation requiring gun owners report to the police if they've lost one of their guns (or had it stolen). I found an average **42% decrease** in firearm deaths in states which have these laws compared to states that don't. It's reported that stolen guns are often transferred to people who can't legally buy one themselves - increasing their barriers to possessing firearms is not only prudent, it's effective.
 
-Hey y'all, I'm working on a project analyzing/visualizing some various shit about the country. I'm currently working on something about guns, but I have a data set that is really extensive and I figured some of y'all may be interested in some of it. I have the different fields broadly categorized in a google sheets and I'd appreciate it if you wouldn't mind taking a look-see and letting me know if there are any topics you'd like me to explore. Here's the link to the data categories: https://docs.google.com/spreadsheets/d/1a94XNgpIOefc12vtiKNoB1SC-u1CULwO5YxudBq6TR0/edit?usp=sharing
+## Get Active
 
-And here's a read-only version of the dataset if you want to get an idea of how it's organized: https://www.thatnickpowersguy.com/blank-page
+So what can you do as a citizen? For starters, educate yourself! Check my work (and let me know if you find any discrepancies!), read a variety of reputable sources and maybe run some of your own analyses. Next, you can check out [VoteSmart](https://justfacts.votesmart.org/), a non-partisan organization where you can look up your elected officials as well as their voting history on a number of issues including gun control as well as finding their contact information to write or call their offices.
+
+### Sources
+
+Below are a few sources I haven't already hyperlinked:
+
+Photo by <a href="https://unsplash.com/@jay_rembert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Rembert</a> on <a href="https://unsplash.com/photos/wTUm3le1WqI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+[Nick Powers' original data sources](https://www.thatnickpowersguy.com/services-1)
+
+[Everytown For Gun Safety](https://everytownresearch.org/rankings/law/lost-and-stolen-reporting/#:~:text=Gun%20thefts%20occur%20at%20staggering,to%20identify%20gun%20trafficking%20rings.)
