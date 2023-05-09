@@ -30,45 +30,17 @@ As detailed in the table above, I analyzed several issues I believed may be corr
 
 To learn how best to combat gun violence, it's useful to know where we stand on the issue. It turns out the US experienced [45,222](https://wonder.cdc.gov/controller/datarequest/D158;jsessionid=B76F9B53AF4C1C03C33CDF78FFEB) deaths due to gun violence in 2020 with an average 13.7 per 100k and a high of 28.6 gun deaths per 100k people in Mississippi. This led me to some perfunctory questions: does gun ownership reduce violent crime? does gun ownership reduce gun deaths? Comparing rates of violent crime and gun ownership per state, I found only a weak positive corelation (*r* = 0.32). Comparing gun ownership and gun deaths, however, revealed a much stronger relationship (*r* = 0.79).
 
-In addition to rates of gun ownership and deaths, I also looked at other factors I believed may tell a more complete story. I was surprised to learn that gun ownership has a very low relationship with rates of domestic violence against women (r = 0.25) and political leaning also is less correlated to gun deaths than simply owning a gun -  of the top 10 states for both gun deaths and votes for Donald Trump in 2020, there are only four states in common and the correlation is only *r* = 0.68 vs *r* = 0.79. Poverty has a similar relationship to gun deaths as does political leanings. Sadly, the strongest relationship I found was between gun ownership and suicides (*r* = 0.82).
+In addition to rates of gun ownership and deaths, I also looked at other factors I believed may tell a more complete story. I was surprised to learn that gun ownership has a very low relationship with rates of domestic violence against women (r = 0.25) and political leaning also is less correlated to gun deaths than simply owning a gun -  of the top 10 states for both gun deaths and votes for Donald Trump in 2020, there are only four states in common and the correlation is only *r* = 0.68 vs *r* = 0.79. Poverty has a similar relationship to gun deaths as does political leanings (*r* = 0.69). Sadly, the strongest relationship I found was between gun ownership and suicides (*r* = 0.82).
+
+While I found a few factors that were positively correlated with higher rates of gun deaths - suicides, gun ownership, leaning conservative - I also wanted to see if anything was associated with fewer gun deaths. Interestingly, at least to teenage-me, states that either don't require registering assault weapons or outright prohibit their registration account for more than 90% of gun deaths in the US compared to states that require registering assault weapons. There is also a 20% and 43% decrease in gun violence and gun deaths, respectively, when state laws require lost or stolen guns be reported to the authorities. Speaking of the authorities, there is no correlation between the number of police in a state per 100k people and gun deaths (*r* = 0.01).
 
 ## Conclusion
 
+This is an obviously contentious issue that deserves to be discussed with grace and humility. Deaths caused by firearms have increased by 23% between 2018 & 2021 (the limits of the [CDC Wonder database](https://wonder.cdc.gov/)) and 2023 is keeping pace. Setting politics aside, it *should* be obvious that this is not only a problem, but one which only seems to get worse. As a data professional, and gun owner, I feel the need to find a way to contribute to a solution.
 
+While this was a quick project, and not particularly wide-ranging, I do think it's reasonable to draw a few conclusions and make a strong recommendation. Suicides may be more strongly associated with firearm deaths, but having access to guns makes the attempt far more likely to be successful; access to firearms, then, (measured by ownership) is the key factor in the high number of firearm deaths we have in America. There have been a number of proposed solutions to the problem of access over the years, but the fact remains "access" is a protected right under the law and the Supreme Court *Heller* (2008) decision has ensured a broad interpretation of the second amendment. How, then, can we regulate access short of a constitutional amendment?
 
-While I found a few factors that were positively correlated with higher rates of gun deaths - suicides, gun ownership, leaning conservative - I also wanted to see if anything was associated with fewer gun deaths. Interestingly, at least to teenage-me, states that either don't require registering assault weapons or outright prohibit their registration account for more than 90% of gun deaths in the US compared to states that require registering assault weapons. There is also a 43% and 46% decrease in gun violence and gun deaths, respectively, when state laws require lost or stolen guns be reported to the authorities. Speaking of the authorities, there is no correlation between the number of police in a state per 100k people and gun deaths (*r* = 0.01). 
-
-- Do states with higher rates of firearm ownership have higher rates of suicide mortality?
-  - Data come from CDC for 2021, per 100k residents
-  - I've heard that states with higher gun ownership have more suicides, but I couldn't believe an Pearson correlation of 0.82!
-    - It makes some sense in that more guns the attempt is more likely to be successful, but also that someone may be more likely to attempt if a probably successful method is easily available
-
-- Do states with more money donated by the gun lobby have less violent crime?
-  - Money donated by gun lobby data comes from Brady Council and is reported as how much money has been donated to the state's currently-serving federal senators over the course of their careers.
-  - Mitt Romney has had way more money donated than anyone else
-  - There's basically no relationship between money donated by gun lobby and violent crime or gun deaths
-
-- Do states that require reporting lost or stolen guns have less violent crime/gun deaths?
-  - Not sure where these data come from, but I did find from [Everytown](https://everytownresearch.org/rankings/law/lost-and-stolen-reporting/) that 15 states require reporting of stolen/lost guns
-  - States requiring reporing max violent crime = 478 / 100K
-  - States without reporting max violent crime = 837.8 / 100k
-  - States requiring reporing max gun deaths = 15.4 / 100k
-  - States without reporting max gun deaths = 28.6 / 100k
-  - 43% difference in violent crime
-  - 46% difference in gun deaths
-
-- Do states with higher violent crime rates have more drug overdoses?
-  - Surpised to find no correlation (r = 0.02)
-  - Data from CDC and records drug od mortalities
-
-- Are states which lean red (measured by having a higher percentage of votes cast for Trump than Biden in 2020) less likely to have gun deaths?
-  - Red states are highly correlated with a high amount of gun deaths (r = 0.68).
-    - This is a slightly weaker relationship than gun ownership vs gun deaths, but that makes sense because gun owners aren't only in red states
-
-- Do states with more poverty have more crime?
-  - There's a moderate positive relationship between violent crime and poverty rates (r = 0.48), but a stronger correlation between gun deaths and poverty (r = 0.65)
-  - poverty data third party from the US Census Bureau
-
+There are two options I was able to study with these data: state laws requiring assault weapon registration and reporting stolen or lost firearms. Even though registering assault weapons is associated with a much larger decrease in firearm deaths (a whopping 92%!), the proposal has major political complications as seemingly-benign as defining "asssault weapon" all the way to including fears of [Hitler-esque monstrosity](https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=1671&context=faculty_scholarship). So, in spite of a less dramatic impact I believe it would be a better first step to simply enact legislation requiring gun owners report to the police if they've lost one of their guns (or had it stolen). I found an average **42% decrease** in firearm deaths in states which have these laws compared to states that don't. It's reported that stolen guns are often transferred to people who can't legally buy one themselves - increasing their barriers to possessing firearms is not only prudent, it's effective.
 
 Hey y'all, I'm working on a project analyzing/visualizing some various shit about the country. I'm currently working on something about guns, but I have a data set that is really extensive and I figured some of y'all may be interested in some of it. I have the different fields broadly categorized in a google sheets and I'd appreciate it if you wouldn't mind taking a look-see and letting me know if there are any topics you'd like me to explore. Here's the link to the data categories: https://docs.google.com/spreadsheets/d/1a94XNgpIOefc12vtiKNoB1SC-u1CULwO5YxudBq6TR0/edit?usp=sharing
 
